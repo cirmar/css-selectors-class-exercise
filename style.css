@@ -1,0 +1,118 @@
+/* PSEUDO SELECTORS */
+
+  /* Pseudo Classes (:) */
+/* Link states 
+    :link
+    :visited
+    :hover
+    :active */
+
+/* a:link{
+  color:white;
+  text-decoration-line: none;
+  background-color: grey;
+  padding: 9px 12px;
+}
+
+a:visited{
+  color: lime;
+}
+
+a:hover{
+  background-color: darkred;
+}
+
+a:active{
+  background-color: orange;
+}
+
+p:hover {
+  background-color: yellow;
+}
+
+p:active {
+  color: red;
+} */
+
+/* nth child psuedo classes */
+
+  /* This selector will only target the a paragraph that is the first child to its parent */
+/* p:first-child{
+  padding: 20px;
+  background-color: lightsalmon;
+} */
+
+
+  /* This selector will target paragraphs that are the first of its type within a parent */
+/* p:first-of-type{
+  padding: 20px;
+  background-color: lightsalmon;
+} */
+
+  /* Targets every #n item */
+/* li:nth-child(3n){
+  background-color: yellow;
+} */
+
+/* removes bullet points from ul list items */
+/* ul, ol{
+  list-style-type: none;
+}
+
+
+li:nth-child(odd){
+  background-color: grey;
+  color: white;
+}
+
+
+li:nth-child(even){
+  background-color: grey;
+  color: grey;
+} */
+
+  /* Targets the (#) paragraph of its parent
+p:nth-of-type(2){
+  background-color: cornflowerblue;
+} */
+
+  /* Pseudo Elements (::) */
+
+  /* p::first-letter {
+    font-size: 4rem;
+    color: darkred;
+  } */
+
+  /* p::first-line{
+    font-style: italic;
+    text-decoration: underline;
+  } */
+
+  /* a::before {
+    content: " \21A6  ";
+    }
+
+  li::before{
+    content: "\2022";
+    color: crimson;
+    margin-right: 20px;
+    font-size: 1.5rem;
+  }
+
+  p::after {
+    content: '...read more';
+    color: blue;
+  } */
+
+/* [id]{
+  color: crimson;
+  text-decoration: underline;
+} */
+
+/* [href*="wikipedia"]{
+  background-color: crimson;
+} */
+
+[src|=".png"]{
+  border: 10px solid crimson;
+}
